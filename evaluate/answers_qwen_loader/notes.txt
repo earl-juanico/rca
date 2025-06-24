@@ -1,0 +1,14 @@
+## number of no parsed detection:
+"bounding boxes": []
+
+grep -c '"bounding_boxes": \[\]' answers_qwen_loader/Qwen2.5-VL-7B-Instruct_rca.jsonl 
+85
+
+grep -c '"bounding_boxes": \[\]' answers_qwen_loader/Qwen2.5-VL-7B-Instruct_none.jsonl 
+29
+
+grep -c '"bounding_boxes": \[\]' answers_qwen_loader/Qwen2.5-VL-7B-Instruct_rca_0.jsonl 
+103
+
+grep -c '"bounding_boxes": \[\]' answers_qwen_loader/Qwen2.5-VL-7B-Instruct_none_0.jsonl 
+0
