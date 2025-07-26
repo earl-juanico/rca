@@ -52,21 +52,21 @@ Evaluation on COCO validation 2017 on rare classes using <em>FitAP</em> as a met
     <th>post-RCA</th>
     <th>% Change</th>
   </tr>
-  <tr><td>Ovis2–34B</td><td>34.9B</td><td>Qwen2.5–32B</td><td>AIMv2–1B</td><td>3.23869</td><td>3.52222</td><td>+8.75</td></tr>
-  <tr><td>SAIL–VL–1.6–8B</td><td>8.33B</td><td>Qwen2.5–7B</td><td>AIMv2 Huge</td><td>4.84873</td><td>5.67149</td><td>+17.0</td></tr>
-  <tr><td>WeThink–Qwen2.5VL–7B</td><td>8.29B</td><td>Qwen2.5–7B</td><td>QwenViT</td><td>39.9640</td><td>37.7606</td><td>–5.51</td></tr>
-  <tr><td>Qwen2.5–VL–7B</td><td>8.29B</td><td>Qwen2.5–7B</td><td>QwenViT</td><td>37.0005</td><td>46.8535</td><td>+26.6</td></tr>
-  <tr><td>MiniCPM–o–2.6</td><td>8.67B</td><td>Qwen2.5–7B</td><td>SigLIP–400M</td><td>0.03064</td><td>0.07334</td><td>+139</td></tr>
-  <tr><td>valley2.dpo</td><td>8.88B</td><td>Qwen2.5–7B</td><td>SigLIP–400M</td><td>11.5145</td><td>11.6927</td><td>+1.55</td></tr>
-  <tr><td>Kimi–VL–A3B</td><td>16.4B</td><td>Moonlight–16B–A3B</td><td>MoonViT</td><td>30.7194</td><td>32.2176</td><td>+4.88</td></tr>
-  <tr><td>Ristretto–3B</td><td>3.84B</td><td>Qwen2.5–3B</td><td>SigLIP–400M</td><td>9.12887</td><td>7.94552</td><td>–13.0</td></tr>
-  <tr><td>POINTS1.5–Qwen2.5–7B</td><td>8.3B</td><td>Qwen2.5–7B</td><td>NaViT</td><td>9.75203</td><td>9.45686</td><td>–3.03</td></tr>
-  <tr><td>Valley–Eagle</td><td>8.9B</td><td>Qwen2.5–7B</td><td>SigLIP–400M</td><td>11.7736</td><td>11.2598</td><td>–4.36</td></tr>
-  <tr><td>Gemma3–27B</td><td>27.4B</td><td>Gemma3–27B</td><td>SigLIP–400M</td><td>2.74179</td><td>3.01913</td><td>+10.1</td></tr>
-  <tr><td>VARCO–VISION–14B</td><td>15.2B</td><td>Qwen2.5–14B</td><td>SigLIP–400M</td><td>27.3592</td><td>28.7003</td><td>+4.90</td></tr>
-  <tr><td>DeepSeek–VL2</td><td>27.5B</td><td>DeepSeekMoE–27B</td><td>SigLIP–400M</td><td>3.38530</td><td>3.99586</td><td>+18.0</td></tr>
-  <tr><td>PaliGemma2–3B–mix–448</td><td>3B</td><td>Gemma2–2B</td><td>SigLIP–400M</td><td>38.7982</td><td>41.1179</td><td>+5.98</td></tr>
-  <tr><td>Moondream2</td><td>1.9B</td><td>Phi–1.5</td><td>SigLIP–400M</td><td>47.0039</td><td>47.0819</td><td>+0.17</td></tr>
+  <tr><td><a href="https://huggingface.co/AIDC-AI/Ovis2-34B">Ovis2–34B</a></td><td>34.9B</td><td>Qwen2.5–32B</td><td>AIMv2–1B</td><td>3.23869</td><td>3.52222</td><td>+8.75</td></tr>
+  <tr><td><a href="https://huggingface.co/BytedanceDouyinContent/SAIL-VL-1d6-8B">SAIL–VL–1.6–8B</a></td><td>8.33B</td><td>Qwen2.5–7B</td><td>AIMv2 Huge</td><td>4.84873</td><td>5.67149</td><td>+17.0</td></tr>
+  <tr><td><a href="https://huggingface.co/yangjie-cv/WeThink-Qwen2.5VL-7B">WeThink–Qwen2.5VL–7B</a></td><td>8.29B</td><td>Qwen2.5–7B</td><td>QwenViT</td><td>39.9640</td><td>37.7606</td><td>–5.51</td></tr>
+  <tr><td><a href="https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct">Qwen2.5–VL–7B</a></td><td>8.29B</td><td>Qwen2.5–7B</td><td>QwenViT</td><td>37.0005</td><td>46.8535</td><td>+26.6</td></tr>
+  <tr><td><a href="https://huggingface.co/openbmb/MiniCPM-o-2_6">MiniCPM–o–2.6</a></td><td>8.67B</td><td>Qwen2.5–7B</td><td>SigLIP–400M</td><td>0.03064</td><td>0.07334</td><td>+139</td></tr>
+  <tr><td><a href="https://huggingface.co/bytedance-research/Valley2-DPO">valley2.dpo</a></td><td>8.88B</td><td>Qwen2.5–7B</td><td>SigLIP–400M</td><td>11.5145</td><td>11.6927</td><td>+1.55</td></tr>
+  <tr><td><a href="https://huggingface.co/moonshotai/Kimi-VL-A3B-Instruct">Kimi–VL–A3B</a></td><td>16.4B</td><td>Moonlight–16B–A3B</td><td>MoonViT</td><td>30.7194</td><td>32.2176</td><td>+4.88</td></tr>
+  <tr><td><a href="https://huggingface.co/LiAutoAD/Ristretto-3B">Ristretto–3B</a></td><td>3.84B</td><td>Qwen2.5–3B</td><td>SigLIP–400M</td><td>9.12887</td><td>7.94552</td><td>–13.0</td></tr>
+  <tr><td><a href="https://huggingface.co/WePOINTS/POINTS-1-5-Qwen-2-5-7B-Chat">POINTS1.5–Qwen2.5–7B</a></td><td>8.3B</td><td>Qwen2.5–7B</td><td>NaViT</td><td>9.75203</td><td>9.45686</td><td>–3.03</td></tr>
+  <tr><td><a href="https://huggingface.co/bytedance-research/Valley-Eagle-7B">Valley–Eagle</a></td><td>8.9B</td><td>Qwen2.5–7B</td><td>SigLIP–400M</td><td>11.7736</td><td>11.2598</td><td>–4.36</td></tr>
+  <tr><td><a href="https://huggingface.co/google/gemma-3-27b-it">Gemma3–27B</a></td><td>27.4B</td><td>Gemma3–27B</td><td>SigLIP–400M</td><td>2.74179</td><td>3.01913</td><td>+10.1</td></tr>
+  <tr><td><a href="https://huggingface.co/NCSOFT/VARCO-VISION-14B">VARCO–VISION–14B</a></td><td>15.2B</td><td>Qwen2.5–14B</td><td>SigLIP–400M</td><td>27.3592</td><td>28.7003</td><td>+4.90</td></tr>
+  <tr><td><a href="https://huggingface.co/deepseek-ai/deepseek-vl2">DeepSeek–VL2</a></td><td>27.5B</td><td>DeepSeekMoE–27B</td><td>SigLIP–400M</td><td>3.38530</td><td>3.99586</td><td>+18.0</td></tr>
+  <tr><td><a href="https://huggingface.co/google/paligemma2-3b-mix-448">PaliGemma2–3B–mix–448</a></td><td>3B</td><td>Gemma2–2B</td><td>SigLIP–400M</td><td>38.7982</td><td>41.1179</td><td>+5.98</td></tr>
+  <tr><td><a href="https://huggingface.co/vikhyatk/moondream2">Moondream2</a></td><td>1.9B</td><td>Phi–1.5</td><td>SigLIP–400M</td><td>47.0039</td><td>47.0819</td><td>+0.17</td></tr>
 </table>
 
 <br/>
