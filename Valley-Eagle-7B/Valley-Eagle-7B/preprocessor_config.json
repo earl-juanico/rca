@@ -1,0 +1,6 @@
+{
+    "processor_class": "ValleyProcessor",
+    "auto_map": {
+        "AutoProcessor": "processing_valley.ValleyProcessor"
+    }
+}
