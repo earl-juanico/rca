@@ -6,9 +6,10 @@
 </p>
 
 <p align="center">
-  <em>Drandreb Earl O. Juanico<sup>1</sup>, Rowel O. Atienza<sup>1</sup>, Jeffrey Kenneth Go<sup>2</sup></em><br>
-  <sup>1</sup>AI Graduate Program & EEEI, University of the Philippines Diliman, Quezon City<br>
-  <sup>2</sup>Samsung R &amp; D Institute Philippines<br>
+  <em>Drandreb Earl O. Juanico<sup>1</sup>, Rowel O. Atienza<sup>1,2</sup>, Jeffrey Kenneth Go<sup>3</sup></em><br>
+  <sup>1</sup>AI Graduate Program, University of the Philippines Diliman, Quezon City<br>
+  <sup>2</sup>EEEI, University of the Philippines Diliman, Quezon City<br>
+  <sup>3</sup>Samsung R &amp; D Institute Philippines<br>
   <a href="mailto:dojuanico@up.edu.ph">dojuanico@up.edu.ph</a>,
   <a href="mailto:earl.juanico@gmail.com">earl.juanico@gmail.com</a> •
   <a href="mailto:rowel@eee.upd.edu.ph">rowel@eee.upd.edu.ph</a> •
