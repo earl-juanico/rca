@@ -120,3 +120,6 @@ Example RCA-based improvements on a few VLM without retraining or fine-tuning
 5. Run the notebook ``Test-<vlm>`` for the ``vlm`` of interest.
 6. You may need to install the correct conda environment settings. See the top cell of the notebook.
 
+## Additional details
+
+You may read additional description about **RCA** from this <a href="https://1ico-opc.blogspot.com/2025/07/blog-post.html">blog</a>.
