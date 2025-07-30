@@ -109,3 +109,13 @@ Example RCA-based improvements on a few VLM without retraining or fine-tuning
 <p align="center">
   <img src="assets/Qwen2.5-VL-7B.gif" alt="Qwen2.5-VL-7B" width="80%">
 </p> -->
+
+## Instructions
+
+1. We removed the ``*.safetensors`` and ``*.gguf`` files originally found in the respective Huggingface repository of the models. You may re-download them to the appropriate model directory using ``wget <Huggingface-repo>/file``.
+2. The codes have been tested in a ``DGX x86_64`` system using ``conda`` environments. Please install Anaconda3 first.
+3. Clone this repository with ``git clone https://github.com/earl-juanico/rca.git``
+4. ``cd rca``
+5. Run the notebook ``Test-<vlm>`` for the ``vlm`` of interest.
+6. You may need to install the correct conda environment settings. See the top cell of the notebook.
+
