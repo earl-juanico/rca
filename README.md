@@ -22,7 +22,7 @@
 
 <br/>
 
-**Summary**
+**Summary** (from full paper: [![arXiv](https://img.shields.io/badge/arXiv-2507.19891-b31b1b.svg)](https://www.arxiv.org/abs/2507.19891))
 
 <p align="justify">
 Reverse Contrast Attention (<b>RCA</b>) is a simple add-on that makes vision-language AIs pick out the right object in an image more accurately—all without retraining them. It tweaks the model’s “attention” so subtle but useful details matter more than extreme signals. In tests on a challenge where the AI must highlight any object mentioned in a sentence, RCA raised accuracy in most models—sometimes by more than 25 percent. It’s especially helpful for systems that combine image and text late in their processing, though others still see gains. 
@@ -123,3 +123,16 @@ Example RCA-based improvements on a few VLM without retraining or fine-tuning
 ## Additional details
 
 You may read additional description about **RCA** from this <a href="https://1ico-opc.blogspot.com/2025/07/blog-post.html">blog</a>.
+
+## Cite
+
+If you use this work, please cite:
+
+```bibtex
+@article{juanico2025interpretable,
+  title={Interpretable Open-Vocabulary Referring Object Detection with Reverse Contrast Attention},
+  author={Juanico, Drandreb Earl O and Atienza, Rowel O and Go, Jeffrey Kenneth},
+  journal={arXiv preprint arXiv:2507.19891},
+  year={2025}
+}
+```
